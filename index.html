@@ -3,19 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AGENTES.IA</title>
+    <link rel="stylesheet" href="styles.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section id="inicio" class="seccion">
-            <h1>agentes.ia</h1>
-            <p>
-                texto de prueba <strong>hola</strong>
-            </p>
-        </section>
 
+<header>
+  <h1>Soluciones Empresariales Vera</h1>
+  <p>Servicios profesionales para potenciar tu negocio</p>
+</header>
 
-    </main>
-    
-</body>
+<nav>
+  <a href="#servicios">Servicios</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+  <h2>¿Qué ofrecemos?</h2>
+  <div class="services">
+    <div class="service-card">
+      <h3>Consultoría Estratégica</h3>
+      <p>Ayudamos a definir y optimizar tus objetivos de negocio.</p>
+    </div>
+    <div class="service-card">
+      <h3>Marketing Digital</h3>
+      <p>Diseñamos campañas que mejoran tu presencia online.</p>
+    </div>
+    <div class="service-card">
+      <h3>Automatización de Procesos</h3>
+      <p>Digitaliza tareas y mejora la eficiencia de tu equipo.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contáctanos</h2>
+  <form onsubmit="enviarFormulario(event)">
+    <input type="text" placeholder="Tu nombre" required>
+    <input type="email" placeholder="Tu correo electrónico" required>
+    <textarea placeholder="Escribe tu mensaje" rows="5" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Soluciones Vera · Todos los derechos reservados</p>
+</footer>
+
 </html>
